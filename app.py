@@ -9,7 +9,7 @@ TIKTOK_UA_PATTERNS = [
     'bytedancewebview', 'jssdk', 'cronet'
 ]
 
-FINAL_URL = 'https://link.boo/yenniwhi'
+FINAL_URL = 'https://gaml.app/yenniwhi'
 
 INSTRUCTIONAL_HTML = """
 <!DOCTYPE html>
@@ -151,7 +151,7 @@ INSTRUCTIONAL_HTML = """
 
     <a class="hold-btn"
        id="holdBtn"
-       href="https://link.boo/yenniwhi"
+       href="https://gaml.app/yenniwhi"
        target="_blank"
        rel="noopener">
 
@@ -228,7 +228,7 @@ INSTRUCTIONAL_HTML = """
     if (isAndroid) {
       status.textContent = 'Opening in browser\u2026';
       status.className   = 'status holding';
-      window.location.href = 'intent://link.boo/yenniwhi#Intent;scheme=https;package=com.android.chrome;end';
+      window.location.href = 'intent://gaml.app/yenniwhi#Intent;scheme=https;package=com.android.chrome;end';
     } else {
       status.textContent = 'Tap "Open Link" \u2191';
       status.className   = 'status holding';
